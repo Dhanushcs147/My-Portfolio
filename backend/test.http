@@ -1,0 +1,42 @@
+### Project 1
+POST http://localhost:8080/api/projects
+Content-Type: application/json
+
+{
+  "title": "SMS Phishing Detection",
+  "description": "SMS phishing detection (SMSish Guard) is a Flutter app using Dart and Google Colab backend to detect spam messages and protect users.",
+  "imageUrl": "images/p1.jpeg",
+  "githubUrl": "https://github.com/Dhanushcs147/smsish_guard.git",
+  "liveDemoUrl": "images/smsguard-demo-video.mp4",
+  "technologies": "Flutter, Dart, Machine Learning"
+}
+
+###
+
+### Project 2
+POST http://localhost:8080/api/projects
+Content-Type: application/json
+
+{
+  "title": "Areca Nut Disease Detection",
+  "description": "Image classification system to detect diseased or normal areca nuts by uploading images.",
+  "imageUrl": "images/p2.jpg",
+  "githubUrl": "https://github.com/Dhanushcs147/ArecaNut-Image-Processing.git",
+  "liveDemoUrl": "",
+  "technologies": "Python, Image Processing, ML"
+}
+
+###
+
+### Project 3
+POST http://localhost:8080/api/projects
+Content-Type: application/json
+
+{
+  "title": "Online Book Store",
+  "description": "A web application for browsing and purchasing books online.",
+  "imageUrl": "images/p2.jpg",
+  "githubUrl": "",
+  "liveDemoUrl": "",
+  "technologies": "Java, Spring Boot, MySQL"
+}

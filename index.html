@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">My Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <input type="checkbox" id="theme-switch">
+                    <label for="theme-switch" class="toggle-label">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">Dhanush C S</span></h1>
+                    <p class="subtitle">Full Stack Developer & Programmer</p>
+                    <p class="description">I create beautiful and functional web applications with modern technologies.</p>
+                    <a href="#projects" class="cta-button">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/photo (1)(1).jpg" alt="Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate developer with experience in creating web applications. I love learning new technologies and solving complex problems.</p>
+                        <p>My skills include HTML, CSS, JavaScript, React, Node.js, and more. I'm always eager to take on new challenges and collaborate on exciting projects.</p>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/about me.jpg" alt="About Me" class="about-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="images/p1.jpeg" alt="Project 1" class="project-image">
+                        <div class="project-content">
+                            <h3>SMS Phishing Detection</h3>
+                            <p>SMS phishing detection shortly smsish guard is flutter developed app where we have used Dart language and google colab for backend purpuse the main purpose of the project is it able the users to identify the incoming messages are spam or safe so that users are protected from spammers. </p>
+                           <div class="project-links">
+    <a href="https://github.com/Dhanushcs147/smsish_guard.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+    <a href="images/smsguard-demo-video.mp4" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo video</a>
+</div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/p2.jpg" alt="Project 2" class="project-image">
+                        <div class="project-content">
+                            <h3>Areca Nut Diesease Detection</h3>
+                            <p>Areca Nut Diesease Detection is used for classifying areca nut based on image classification just uploading a photo and it predicts as diesesed or Normal</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Dhanushcs147/ArecaNut-Image-Processing.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/book 1.jpg" alt="Project 3" class="project-image">
+                        <div class="project-content">
+                            <h3>Online book store</h3>
+                            <p>Online book store a small ecommerce for buying and selling books developed using full stack java ,spring boot,mysql</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Dhanushcs147/Online-Book-Store.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2>My Blog</h2>
+                <div class="blog-posts">
+                    <div class="blog-post">
+                        <img src="images/b1.jpg" alt="Blog Post 1" class="blog-image">
+                        <div class="blog-content">
+                            <h3>Building ML-Powered Android Apps with Flutter & Dart</h3>
+                            <p class="blog-meta">Posted on March 20, 2024 • 8 min read</p>
+                            <p>Learn how I built SMS Phishing Detection using Flutter and integrated Google Colab backend for machine learning predictions. This guide covers connecting mobile apps to ML models...</p>
+                            <a href="https://en.wikipedia.org/wiki/Phishing" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-post">
+                        <img src="images/p2.jpg" alt="Blog Post 2" class="blog-image">
+                        <div class="blog-content">
+                            <h3>Image Classification for Agricultural Innovation</h3>
+                            <p class="blog-meta">Posted on March 10, 2024 • 7 min read</p>
+                            <p>Discover how to implement image classification for disease detection using Python and deep learning. In this post, I share my approach to building the Areca Nut disease detection system...</p>
+                            <a href="https://en.wikipedia.org/wiki/Areca_nut" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-post">
+                        <img src="images/b3.jpg" alt="Blog Post 3" class="blog-image">
+                        <div class="blog-content">
+                            <h3>Full-Stack Development: From Spring Boot Backend to Frontend Integration</h3>
+                            <p class="blog-meta">Posted on February 28, 2024 • 10 min read</p>
+                            <p>An in-depth guide on building complete web applications using Spring Boot for the backend and modern frontend technologies. Learn about REST APIs, database design, and deployment...</p>
+                            <a href="https://en.wikipedia.org/wiki/Full-stack_development" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Feel free to reach out if you have any questions or want to work together!</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/dhanushcs" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        
+                            <a href="https://github.com/Dhanushcs147" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://x.com/DhanushCS18" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/dhanushcs_/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
